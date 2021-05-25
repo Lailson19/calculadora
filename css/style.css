@@ -1,0 +1,90 @@
+*{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  font-family: monospace;
+  color: #7a7a7a;
+}
+
+main{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px;
+  background-image: linear-gradient(to right bottom, #05040a, #110f19, #171724, #1c1e31, #20253e, #202642, #212646, #21274a, #1e2145, #1b1b41, #19153c, #170f37);
+}
+
+main header{
+  margin-bottom: 1.5rem;
+}
+
+main header h1{
+  color: rgb(214, 214, 214);
+}
+
+.container{
+  background-image: linear-gradient(to right bottom, #15000c, #1b1019, #211924, #27232f, #2d2d3a, #2a2f3c, #27303d, #24323d, #192c34, #10252a, #091e20, #001816);
+  width: 25%;
+  height: 75%;
+  min-width: 320px;
+  min-height: 430px;
+  padding: 1.5em 1em;
+  border-radius: 1em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0.4em 0.5em 1.8em rgb(8, 0, 8);
+}
+
+.display{
+  background-image: linear-gradient(to right bottom, #9c9c9c, #aaaaaa, #b9b8b9, #c8c6c7, #d7d4d5, #d8d5d6, #dad7d8, #dbd8d9, #cfcdce, #c2c1c2, #b6b6b7, #ababab);
+  width: 100%;
+  height: 25%;
+  padding: 0.5em;
+  border-radius: 0.5em;
+  box-shadow: inset 0.3em 0.2em 0.8em rgb(53, 53, 53);
+  margin-bottom: 1em;
+}
+
+.display input{
+  width: 100%;
+  height: 100%;
+  background-color:transparent;
+  font-size: 2.5em;
+  font-stretch: condensed;
+  text-align: right;
+}
+
+.buttons{
+  width: 100%;
+  height: 80%;
+  padding: 0.3em 0.2em;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.btn{
+  width: 60px;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.5em;
+  box-shadow: inset 0.2em 0.2em 0.2em #3a63a0, 0.2em 0.2em 0.2em #0c1829;
+  background-image: linear-gradient(to left top, #002357, #022860, #052d69, #083372, #0b387b, #0f3d83, #13428c, #164794, #1b4e9e, #1f54a7, #235bb1, #2762bb);
+  color: #aac9f8;
+  font-size: 1.6em;
+  cursor: pointer;
+}
+
+.btn:hover{
+  transform: scale(1.03);
+}
+
+.btn:active{
+  transform: scale(0.9);
+}
